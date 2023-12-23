@@ -1,0 +1,360 @@
+*{
+  margin:0;
+  padding:0;
+  
+}
+.container{
+  background-color: #F5F8FA;
+  font-family: Lato;
+}
+.nav-bar{
+  display:flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  padding: 15px;
+  font-size: 14px;
+  font-family: Lato;
+  width: 95%;
+  border-bottom: 1px solid #E0E6EA;
+}
+
+.menu{
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+ 
+  
+}
+.nav-download{
+  margin-right: 30px;
+}
+
+.nav-learn-more{
+  margin-right: 30px;
+}
+
+.nav-pricing{
+  margin-right: 30px;
+}
+
+.nav-help{
+  margin-right: 30px;
+}
+
+.nav-account{
+  margin-right: 14px;
+  border: 2px solid #646E7A;
+  height: 20px;
+  width: 91px;
+  border-radius: 6px;
+}
+
+.account-text{
+  padding-left:20px;
+  margin-top: 120px;
+  
+}
+
+.main{
+  display: flex; 
+  flex-direction: row;
+  margin-left: 300px;
+  margin-top: 50px;
+  padding-bottom: 100px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  color: #1D2C3C;
+  border-radius: 6px;
+background: #FFF;
+
+box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.05), 0px 15px 35px 0px rgba(43, 64, 78, 0.10);
+
+}
+
+.heading{
+  color: #1D2C3C;
+  font-size: 60px;
+  word-wrap: break-word;
+  border-bottom: 100%;
+  border-bottom: 1px solid #E0E6EA;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-bottom: 10px;
+}
+
+.basic-info{
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border-bottom: 100%;
+  border-bottom: 1px solid #E0E6EA;
+  
+}
+
+.oneh{
+  display: flex;
+  margin-left: 50px;
+}
+
+.one{
+  border: 2px solid #548BC5;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  color: #548BC5;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.5em;
+  text-align: center;
+  width: 1.5em;
+  font-size: 18px;
+}
+
+.one-text{
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.16px;
+  padding-top: 2px;
+  padding-left: 5px;
+  }
+
+.basic-info{
+  padding-top: 20px;
+}
+.form-name{
+  padding-top: 3px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+}
+.form-name input[type=text] {
+  width: 227px;
+  height: 36px;
+  flex-shrink: 0;
+  border: 1px solid #EDEFF2;
+  border-radius: 4px;
+  background: #EDEFF2;
+  margin-top: 5px;
+  } 
+    
+  .form-group {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    margin-right: 10px;
+  }
+  
+  .form-group input {
+    flex: 1;
+  }
+
+  .last-name{
+    padding-right: 40px;
+  }
+  #firstname, #lastname{
+    padding-left: 10px;
+    font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  }
+  .email-form-group{
+    padding-bottom: 19px;
+    border-bottom: 100%;
+    border-bottom: 2px solid #F5F7FA;
+    border-width: 100%;
+    padding-left: 50px;
+  }
+
+  .email-form-group input[type=text] {
+      width: 370px;
+      height: 36px;
+      flex-shrink: 0;
+      border: 1px solid #EDEFF2;
+      border-radius: 5px;
+      background: #EDEFF2;
+      margin-top: 5px;
+      
+      } 
+
+      #email{
+      
+      color: #646E7A;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      }
+
+
+      .pay-info{
+        margin-left: 50px;
+      }
+      .twoh{
+        display: flex;
+        padding-top: 20px;
+        font-family: Lato;
+      }
+      
+      .two{
+        border: 2px solid #548BC5;
+        border-radius: 50%;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        color: #548BC5;
+        display: inline-block;
+        font-weight: bold;
+        line-height: 1.5em;
+        text-align: center;
+        width: 1.5em;
+        font-size: 18px;
+      }
+      
+      .two-text{
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.16px;
+        padding-top: 2px;
+        padding-left: 5px;
+        }
+#cardnumber{
+  width: 483px;
+  height: 36px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #EDEFF2;
+}
+
+.creditcard-form-group input[type=number] {
+  width: 370px;
+  height: 36px;
+  flex-shrink: 0;
+  border: 1px solid #EDEFF2;
+  border-radius: 5px;
+  background: #EDEFF2;
+  margin-top: 5px;
+  } 
+
+  .button{
+    margin-top: 15px;
+    width: 483px;
+    height: 32px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #038E7D;
+    color: white;
+    margin-left: 50px;
+  }
+
+  .left-side-footer{
+    margin-left: 120px;
+    margin-top: 15px;
+  }
+
+  .question-mark{
+    border: 2px solid #548BC5;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    color: #548BC5;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.5em;
+    text-align: center;
+    width: 1.5em;
+    font-size: 14px;
+  }
+
+  .right-side{
+    background-color: #1179BF;
+    color: white;
+    padding-left: 40px;;
+    border-radius: 0px 6px 6px 0px;
+  }
+
+  .freelancer-head{
+    padding-top: 10px;
+    font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.01px;
+  }
+
+  .amount{
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+  .dollar-sign{
+    font-size: 24px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+padding-top:30px;
+letter-spacing: -0.015px;
+font-weight: 200;
+  }
+
+  .figure{
+  font-size: 60px;
+font-style: normal;
+line-height: normal;
+letter-spacing: -0.015px;
+font-weight: 400;
+  }
+
+
+  .year{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.015px;
+    pading-bottom: 16px;
+  }
+
+  .renew{
+    font-style: italic;
+  }
+
+  .list{
+    padding-top: 20px;
+    display: flex;
+  }
+
+  .third-row{
+    padding-top: 10px;
+  }
+  .ques{
+    padding-top:30px;
+  }
+
+  .switchz{
+    padding-top:15px;
+    color: white;
+  }
+  
+  .fr-text{
+    color: #FFF;
+font-size: 18px;
+font-size: 14px;
+font-style: italic;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: -0.009px;
+  }
